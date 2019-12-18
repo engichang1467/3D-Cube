@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int g_iWindowWidth = 800, g_iWindowHeight = 600, g_hWindowHandle = 0;
+int g_iWindowWidth = 1000, g_iWindowHeight = 800, g_hWindowHandle = 0;
 
 clock_t g_PreviousTicks, g_CurrentTicks;
 
@@ -93,6 +93,7 @@ void DisplayGL()
     glVertex3f( -1.0f, -1.0f, -1.0f ); // Top-left of the Bottom face 
     glVertex3f( -1.0f, -1.0f,  1.0f ); // Buttom-left of the Bottom face
     glVertex3f(  1.0f, -1.0f,  1.0f ); // Buttom-right of the Bottom face
+
 
     // Front face
     glColor3f(   1.0f,  0.0f,  0.0f ); // Red
